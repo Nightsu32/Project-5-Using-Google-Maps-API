@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+#gameContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* LEFT PANEL */
+#leftPanel {
+  width: 35%;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #111;   /* black panel */
+  color: #fff;
+}
+
+/* HEADINGS */
+#leftPanel h1 {
+  margin-bottom: 5px;
+  color: #d22030; /* CSUN red accent */
+}
+
+#leftPanel h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #ddd;
+}
+
+/* QUESTION BOX */
+#questionBox {
+  background-color: #d22030; /* red */
+  color: white;
+  padding: 10px;
+  margin: 12px 0;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* FEEDBACK */
+#feedbackBox {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  min-height: 25px;
+}
+
+.correct {
+  color: #4CAF50; /* green */
+}
+
+.incorrect {
+  color: #ff4d4d; /* red */
+}
+
+/* HISTORY ITEMS */
+#history {
+  margin-top: 15px;
+}
+
+.historyItem {
+  background-color: #333;
+  color: white;
+  margin: 5px 0;
+  padding: 6px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* FINAL SCORE */
+#finalScore {
+  font-size: 40px;
+  margin-top: 25px;
+  color: #d22030;
+}
+
+/* BUTTON */
+#restartButton {
+  display: none;
+  padding: 10px 20px;
+  background-color: #d22030;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#restartButton:hover {
+  background-color: #a81824;
+}
+
+/* MAP */
+#map {
+  width: 65%;
+  height: 100vh;
+}

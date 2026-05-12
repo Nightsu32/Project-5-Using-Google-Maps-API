@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSUN Map Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="gameContainer">
+    <div id="leftPanel">
+      <h1>Map Quiz</h1>
+      <h2>Please double click on the map where the location is:</h2>
+
+      <div id="questionBox">Loading question...</div>
+      <div id="feedbackBox"></div>
+
+      <div id="history"></div>
+
+      <h1 id="finalScore"></h1>
+
+      <button id="restartButton" onclick="restartGame()">Restart Quiz</button>
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbQ3e5zgdxYeMsrzdWEyOeKxIYsC5BKFA&callback=initMap"
+    async
+    defer>
+  </script>
+</body>
+</html>
